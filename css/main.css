@@ -25,7 +25,12 @@ h3 {
 
 p {
   text-align: justify;
+  margin: 10px;
   font-family: 'B612', sans-serif;
+}
+
+.myEnter {
+  display: none;
 }
 
 .demo a {
@@ -222,7 +227,7 @@ h1 {
     #db36a4,
     #f7ff00
   ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-  filter: drop-shadow(0.75rem 0.75rem 0.75rem #e9545785);
+  filter: drop-shadow(0.75rem 1rem 0.75rem #e9545785);
 }
 
 .day01 > h3 {
@@ -243,7 +248,7 @@ h1 {
     #fbd786,
     #c6ffdd
   ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-  filter: drop-shadow(1rem 1rem 1rem #fdb776bd);
+  filter: drop-shadow(0.75rem 1rem 0.75rem #fdb776bd);
 }
 
 .day03 {
@@ -258,7 +263,7 @@ h1 {
     #493240,
     #ff0099
   ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-  filter: drop-shadow(0.65rem 0.65rem 0.75rem #f43eab9c);
+  filter: drop-shadow(0.75rem 1rem 0.75rem #f43eab9c);
 }
 
 .day03 {
@@ -277,7 +282,7 @@ h1 {
     #99f2c8,
     #1f4037
   ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-  filter: drop-shadow(1rem 1rem 1rem #6db194c7);
+  filter: drop-shadow(1rem 1.25rem 1rem #6db194c7);
 }
 
 .day04 {
@@ -291,6 +296,9 @@ h1 {
   .demo a {
     margin-left: 3rem;
     margin-right: 3rem;
+  }
+  .myEnter {
+    display: block;
   }
 }
 

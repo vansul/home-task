@@ -58,19 +58,20 @@ body {
 }
 
 .demo a span {
+  border-radius: 25px;
+  text-align: center;
   display: block;
   padding: 3px 10px;
-  /* background: #0f7c67; */
-  background: #948e99; /* fallback for old browsers */
+  background: #e1eec3; /* fallback for old browsers */
   background: -webkit-linear-gradient(
     -45deg,
-    #2e1437,
-    #948e99
+    #f05053,
+    #e1eec3
   ); /* Chrome 10-25, Safari 5.1-6 */
   background: linear-gradient(
     -45deg,
-    #2e1437,
-    #948e99
+    #f05053,
+    #e1eec3
   ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 
   -webkit-transition: -webkit-transform 0.3s;
@@ -79,6 +80,8 @@ body {
 }
 
 .demo a::before {
+  border-radius: 25px;
+  text-align: center;
   position: absolute;
   top: 0;
   left: 0;
@@ -108,14 +111,14 @@ body {
   -webkit-transition: -webkit-transform 0.3s;
   -moz-transition: -moz-transform 0.3s;
   transition: transform 0.3s;
-  -webkit-transform: translateX(-25%);
+  -webkit-transform: translateX(-100%) translateY(-100%);
 }
 
 .demo a:hover span,
 .demo a:focus span {
-  -webkit-transform: translateX(100%);
-  -moz-transform: translateX(100%);
-  transform: translateX(100%);
+  -webkit-transform: translateX(100%) translateY(100%);
+  -moz-transform: translateX(100%) translateY(100%);
+  transform: translateX(100%) translateY(100%);
 }
 
 .demo a:hover::before,

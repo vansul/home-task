@@ -3,7 +3,7 @@ html {
 }
 
 *,
-*:after,
+*::after,
 *::before {
   font-family: B612, sans-serif;
 

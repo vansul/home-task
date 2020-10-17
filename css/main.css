@@ -227,7 +227,13 @@ h1 {
     #db36a4,
     #f7ff00
   ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  -webkit-transition-duration: 0.5s;
+  transition-duration: 0.5s;
   filter: drop-shadow(0.75rem 1rem 0.75rem #e9545785);
+}
+
+.day01:hover {
+  filter: drop-shadow(1rem 1.25rem 1rem #e95457b2);
 }
 
 .day01 > h3 {
@@ -248,7 +254,12 @@ h1 {
     #fbd786,
     #c6ffdd
   ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  transition-duration: 0.5s;
   filter: drop-shadow(0.75rem 1rem 0.75rem #fdb776bd);
+}
+
+.day02:hover {
+  filter: drop-shadow(1rem 1.25rem 1rem #fdb776dc);
 }
 
 .day03 {
@@ -263,7 +274,12 @@ h1 {
     #493240,
     #ff0099
   ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  transition-duration: 0.5s;
   filter: drop-shadow(0.75rem 1rem 0.75rem #f43eab9c);
+}
+
+.day03:hover {
+  filter: drop-shadow(1rem 1.25rem 1rem #f43eabc7);
 }
 
 .day03 {
@@ -282,7 +298,12 @@ h1 {
     #99f2c8,
     #1f4037
   ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  transition-duration: 0.5s;
   filter: drop-shadow(1rem 1.25rem 1rem #6db194c7);
+}
+
+.day04:hover {
+  filter: drop-shadow(1.25rem 1.5rem 1rem #67cea1ee);
 }
 
 .day04 {

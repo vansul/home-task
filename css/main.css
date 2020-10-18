@@ -229,7 +229,7 @@ h1 {
   ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
   -webkit-transition-duration: 0.5s;
   -o-transition-duration: 0.5s;
-  -moz-transition: 0.5s;
+  -moz-transition-duration: 0.5s;
   transition-duration: 0.5s;
   filter: drop-shadow(0.75rem 1rem 0.75rem #e9545750);
 }
@@ -258,7 +258,7 @@ h1 {
     #c6ffdd
   ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
   -o-transition-duration: 0.5s;
-  -moz-transition: 0.5s;
+  -moz-transition-duration: 0.5s;
   transition-duration: 0.5s;
   filter: drop-shadow(0.75rem 1rem 0.75rem #fab87970);
 }
@@ -281,7 +281,7 @@ h1 {
     #ff0099
   ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
   -o-transition-duration: 0.5s;
-  -moz-transition: 0.5s;
+  -moz-transition-duration: 0.5s;
   transition-duration: 0.5s;
   filter: drop-shadow(0.75rem 1rem 0.75rem #f43eab5e);
 }

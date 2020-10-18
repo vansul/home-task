@@ -235,7 +235,7 @@ h1 {
 }
 
 .day01:hover {
-  filter: drop-shadow(1rem 1.25rem 1rem #e95457b2);
+  filter: drop-shadow(1rem 1.25rem 1rem #e95481b2);
   transform: translateX(-3.5px) translateY(-7px);
 }
 
@@ -260,11 +260,11 @@ h1 {
   -o-transition-duration: 0.5s;
   -moz-transition-duration: 0.5s;
   transition-duration: 0.5s;
-  filter: drop-shadow(0.75rem 1rem 0.75rem #fab87970);
+  filter: drop-shadow(0.75rem 1rem 0.75rem #fadc798a);
 }
 
 .day02:hover {
-  filter: drop-shadow(1rem 1.25rem 1rem #f79c4696);
+  filter: drop-shadow(1rem 1.25rem 1rem #e5f7468e);
   transform: translateX(-3.5px) translateY(-7px);
 }
 
@@ -287,7 +287,7 @@ h1 {
 }
 
 .day03:hover {
-  filter: drop-shadow(1rem 1.25rem 1rem #d62c92ad);
+  filter: drop-shadow(1rem 1.25rem 1rem #d62c7bad);
   transform: translateX(-3.5px) translateY(-7px);
 }
 
@@ -314,7 +314,7 @@ h1 {
 }
 
 .day04:hover {
-  filter: drop-shadow(1.25rem 1.25rem 1rem #4ba17cd7);
+  filter: drop-shadow(1.25rem 1.25rem 1rem #459774d7);
   transform: translateX(-3.5px) translateY(-7px);
 }
 

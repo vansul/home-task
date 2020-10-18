@@ -231,11 +231,11 @@ h1 {
   -o-transition-duration: 0.5s;
   -moz-transition-duration: 0.5s;
   transition-duration: 0.5s;
-  filter: drop-shadow(0.75rem 1rem 0.75rem #e9545750);
+  filter: drop-shadow(0.75rem 1rem 0.75rem #f334746b);
 }
 
 .day01:hover {
-  filter: drop-shadow(1rem 1.25rem 1rem #e95481b2);
+  filter: drop-shadow(1rem 1.25rem 1rem #e9a954a4);
   transform: translateX(-3.5px) translateY(-7px);
 }
 
@@ -260,11 +260,11 @@ h1 {
   -o-transition-duration: 0.5s;
   -moz-transition-duration: 0.5s;
   transition-duration: 0.5s;
-  filter: drop-shadow(0.75rem 1rem 0.75rem #fadc798a);
+  filter: drop-shadow(0.75rem 1rem 0.75rem #f781798a);
 }
 
 .day02:hover {
-  filter: drop-shadow(1rem 1.25rem 1rem #e5f7468e);
+  filter: drop-shadow(1rem 1.25rem 1rem #e0d5345e);
   transform: translateX(-3.5px) translateY(-7px);
 }
 
